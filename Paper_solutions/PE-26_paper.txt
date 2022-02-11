@@ -1,0 +1,25 @@
+(To say this could be easily done with pen and paper is a stretch, but it doesn't require programming.)
+
+The longest recurring cycle a number N can have is N - 1. I'm pretty sure only a prime N can have an (N - 1)-digit recurring cycle, though clearly this isn't the case for all primes. I don't know how to distinguish which primes *do* have (N - 1) digits without actually checking cycle itself.
+
+7, 17, 19, 23, ...
+
+OEIS says these are called full reptend primes (for base 10):
+
+http://oeis.org/A001913
+
+We need the largest number from the sequence above that is under 1000, so 983.
+
+***
+
+How would I find it without looking it up on OEIS?
+
+Start with a list of every prime under 1000, which can be gotten from other sources or tediously calculated:
+
+997, 991, 983, 977, ..., 7, 5, 3, 2.
+
+Find the period of each number in the list above (e.g. by putting "1 / N" into WolframAlpha) and stop when we've gotten to the first one that is N - 1.
+
+1 / 997 has a period of 166
+1 / 991 has a period of 495
+1 / 983 has a period of 982  ==>  Stop, that's the one. The answer is 983.
