@@ -1,0 +1,13 @@
+X is the unknown. a, b, c are three arithmetic sequences. S(x, y) is the sum of an arithmetic sequence x up to an index y.
+
+a_1 = 3, d_a = 3, a_n = 999
+b_1 = 5, d_b = 5, b_m = 995
+c_1 = 15, d_c = 15, c_k = 990
+
+n = 999 / 3 = 333
+m = 995 / 5 = 199
+k = 990 / 15 = 66
+
+S(x, y) = (x_1 + x_y) / 2 * y
+
+X = S(a, n) + S(b, m) - S(c, k) = (3 + 999) / 2 * 333 + (5 + 995) / 2 * 199 - (15 + 990) / 2 * 66 = 233168

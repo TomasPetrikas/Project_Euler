@@ -1,0 +1,7 @@
+The answer to this problem is simply 2n choose n, where n = 20 in this case.
+
+I didn't prove this in any way, I just figured it out by enumerating n = 1,2,3 by hand and looking it up on the OEIS.
+
+http://oeis.org/A000984
+
+40 choose 20 = 40! / (20!)^2 = 137846528820
