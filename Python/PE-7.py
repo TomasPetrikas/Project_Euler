@@ -1,6 +1,6 @@
 # 10001st prime
 #
-# https://projecteuler.net/problem=2
+# https://projecteuler.net/problem=7
 
 # Querying WolframAlpha with "10001st prime" also works
 # https://www.wolframalpha.com/input?i=10001st+prime
